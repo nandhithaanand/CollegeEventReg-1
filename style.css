@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f4f7;
+    margin: 0;
+}
+.container {
+    width: 80%;
+    max-width: 850px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+input, select, button {
+    width: 90%;
+    padding: 12px;
+    margin: 8px;
+    box-sizing: border-box;
+}
+button {
+    background: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+th {
+    background: #222;
+    color: white;
+}
+.delete {
+    background: #d9534f;
+    padding: 6px 10px;
+    width: auto;
+}
+#message {
+    font-weight: bold;
+}
